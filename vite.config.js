@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/',
+  base: '/agoracafe/',
   build: {
     outDir: 'dist'
   }
