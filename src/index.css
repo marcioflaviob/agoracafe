@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --color-almond: #d6bd98;
+  --color-matcha: #677d6a;
+  --color-forest: #40534c;
+  --color-eclipse: #1a3636;
+  
+  /* RGB values for opacity effects */
+  --almond-rgb: 214, 189, 152;
+  --matcha-rgb: 103, 125, 106;
+  --forest-rgb: 64, 83, 76;
+  --eclipse-rgb: 26, 54, 54;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+}
+
+@layer components {
+  .text-on-almond {
+    color: var(--color-eclipse);
+  }
+  
+  .text-on-dark {
+    color: var(--color-almond);
+  }
+  
+  .bg-almond {
+    background-color: var(--color-almond);
+  }
+  
+  .bg-matcha {
+    background-color: var(--color-matcha);
+  }
+  
+  .bg-forest {
+    background-color: var(--color-forest);
+  }
+  
+  .bg-eclipse {
+    background-color: var(--color-eclipse);
+  }
+  
+  .border-almond {
+    border-color: var(--color-almond);
+  }
+  
+  .border-matcha {
+    border-color: var(--color-matcha);
+  }
+  
+  .border-forest {
+    border-color: var(--color-forest);
+  }
+  
+  .border-eclipse {
+    border-color: var(--color-eclipse);
+  }
+  
+  .hover\:bg-almond:hover {
+    background-color: var(--color-almond);
+  }
+  
+  .hover\:bg-matcha:hover {
+    background-color: var(--color-matcha);
+  }
+  
+  .hover\:bg-forest:hover {
+    background-color: var(--color-forest);
+  }
+  
+  .hover\:bg-eclipse:hover {
+    background-color: var(--color-eclipse);
+  }
+}
