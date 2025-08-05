@@ -6,7 +6,7 @@ const client = createClient({
   dataset: 'production',
   useCdn: false, // Disable CDN for mutations
   apiVersion: '2024-01-01',
-  token: 'sk6bIoulPBgpsK96cTjEx6qjUH4hICTbd9L1zWKn3Cijt7ImQWdluRMqvhzmRzQYD05gKLWq45MhkiXfGh1g8w9A1Xm9IlXmke29oDPSzZXhfFxcYcY3Ik43xeeo7poPTU0SGNNEiIdJSj3OD3SSRF6zGK8IYpvrSXvdxN2gQV0TbVzVCrRd'
+  token: 'APIKEY'
 })
 
 // Sample stats data
